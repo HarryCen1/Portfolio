@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital,wght@1,300&family=Oswald:wght@300;500;700&family=Roboto:wght@400;500;700&display=swap');
+:root {
+    --primary-colour: #047aed;
+    --secondary-colour: #1c3fa8;
+    --dark-colour: #002240;
+    --light-colour: #f4f4f4;
+    --success-colour:#5cb85c;
+    --error-colour:#d9534f;
+    --light-green:#97c680;
+}
+
+.color-lightgreen {
+    color: var(--light-green);
+}
+
+.color-dark {
+    color: var(--dark-colour);
+}
+
+
+/*Nav*/
+nav .logo {
+    color: var(--dark-colour);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% auto 8%;
+    margin-bottom: 70px;
+    padding: 0px 100px 0px 100px;
+}
+
+
+/*Hero*/
+.hero-area {
+    display: flex;
+    position: relative;
+    margin: 100px;
+}
+
+.hero-text h1,
+.hero-text h2 {
+    background-color: var(--dark-colour);
+    padding: 15px;
+    
+}
+
+
+
+.hero-display img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 60rem;;
+    height: 34rem;
+}
+
+
+
+/*Project*/
+.project {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project img {
+    object-fit: contain;
+
+}
+
+.card-info {
+    width: 25rem;
+    height: 20rem;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    color: var(--light-colour);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-color: var(--dark-colour);
+}
+
+
+
+.card-info h3 {
+    inset: auto auto 50px 30px;
+    margin: 0;
+    transition: inset .3s .3s ease-out;
+}
+
+.card-info p,
+.card-info a,
+.card-info h3 {
+    position:relative;
+    opacity: 0;
+    max-width: 80%;
+    transition: .3s ease-out;
+}
+
+.card-info p {
+    inset: auto auto 250px 30px;
+}
+  
+.card-info a {
+    inset: auto auto 240px 30px;
+    color: inherit;
+    text-decoration: none;
+}
+
+  
+.card-info h3:hover {
+    inset: auto auto 420px 30px;
+    transition: inset .3s ease-out;
+}
+
+
+.card-info:hover p,
+.card-info:hover a,
+.card-info h3 {
+    opacity: 1;
+    transition: opacity .5s .1s ease-in;
+    transition-delay: 0.3s;
+}
+
+.project img:hover  {
+    transition: opacity .3s ease-in;
+    opacity: 0.3;
+    transform: scale(1.2);
+}
+
+/*About Me*/
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-img img {
+    object-fit: fill;
+    height: 45rem;
+    border-radius: 10px;
+}
+.about-text {
+    width: 40rem;
+    height: 45em;
+    padding-left: 470px;
+    padding-top: 30px;
+}
+
+
+.about-me-inner-text {
+    background-color: var(--dark-colour);
+    padding: 20px;
+}
+
+
+/*Footer*/
+footer {
+    margin-top: 100px;
+}
+
+.contact-form {
+    width: 100%;
+    height: auto;
+}
+
+.form-contact-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-contact-list input,
+.form-contact-list textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 5px;
+    background:var(--light-colour);
+    font-size: 16px;
+}
+
+.red-sumbit-button {
+    padding: 12px;
+    font-size: 20px;
+    background-color: rgb(226, 58, 58);
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.contact-icon div{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/*Nav*/
+/*Nav*/
+/*Nav*/
+/*Nav*/
+/*Nav*/
+/*Nav*/
+/*Nav*/

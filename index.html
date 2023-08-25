@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Harry's Portolio Website</title>
+
+        <!--GoogleFont: Roboto-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <!--CSS & Images-->
+        <link rel="stylesheet" href="CSS/makeUp.css" >
+        <link rel="stylesheet" href="CSS/general.css">
+        <link rel="stylesheet" href="Images/Background 1.webp">
+
+        <!--Font-Awesome(Icons)-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--JS -->
+        <script defer src="slide.JS"></script>
+    </head>
+<body>
+
+        <!--Nav-->
+     <nav>
+        <h2 class="logo">
+            Profolio | <span>Harry Cen</span>
+        </h2>
+
+        <div class="*"></div>
+
+        <div>
+            <i class="fa-solid fa-bars circle-border"></i>
+            <a class="circle-border" href="*">Contact</a>
+        </div>
+
+    </nav>
+
+    <!--Hero-->
+    <section class="hero-area Hidden ">  
+        <div class="hero-display stack stack-2 text-center ">
+            <img src="images/Lion-zoo-me.jpg" alt="">
+        </div>
+
+        <div class="hero-text center stack stack-1 ">
+            <h1>Hello there! <br>Nice to meet you.</h1>
+            <h2>Why don't you have a look around and come over chat</h2>
+            <div class="interest">
+                <button class="circle-border">Lets Chat <i class="fa-solid fa-location-arrow"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Profilo-->
+    <section class="back Hidden">
+            <!--Profilo Head-->
+        <div class="project-head text-center">
+            <h1 class="color-lightgreen">Projects</h1>
+            <ul id="filterButtons" class="flex center">
+                <li><button class="filter-button circle-border" data-category="all">All <i class="fa-regular fa-eye"></i></button></li>
+                <li><button class="filter-button circle-border" data-category="frontend">Frontend <i class="fa-solid fa-code"></i></button></li>
+                <li><button class="filter-button circle-border" data-category="figma">Figma <i class="fa-brands fa-figma"></i></button></li>
+                <li><button class="filter-button circle-border" data-category="none">Hide <i class="fa-regular fa-eye-slash"></i></button></li>
+            </ul>
+        </div>
+
+             <!--FrontEnd-->
+        <div id="content">
+            <div class="item" data-category="frontend">
+                <h2 class="text-center"><i class="fa-solid fa-code"></i></h2>
+                <div class="grid gridThree">
+                    
+                    <!--Course Website-->
+                    <div class="project center">
+                        <h2>ScrollSkill <br>[Coming Soon]</h2>
+                        <div class="card-info">
+                            <img src="images/ScrollSkil.png" alt="">
+                                <h3>
+                                    HTML <i class="fa-brands fa-html5"></i>, CSS <i class="fa-brands fa-css3-alt"></i> & JS<i class="fa-brands fa-js"></i>
+                                </h3>
+                                <p>Current working project with a simailar concept elements to SkillShare and Coursera</p> 
+        
+                                <a href="*" class="at-button circle-border">
+                                    Courses
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </a>
+                            
+                        </div>
+                    </div>
+                    
+                    <!--Portolio-->
+                    <div class="project center">
+                        <h2>Portolio</h2>
+                        <div class="card-info">
+                            <img src="images/Profolio.png" alt="">
+        
+                            <div class="card-project-content">
+                                <h3>
+                                    HTML <i class="fa-brands fa-html5"></i>, 
+                                    CSS <i class="fa-brands fa-css3-alt"></i> &
+                                    JS<i class="fa-brands fa-js"></i>
+                                </h3>                                
+                                <p>A showcase of all projects and future project </p> 
+        
+                                <a href="*" class="at-button circle-border">
+                                    Courses
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="project center">
+                        <h2>Calculater</h2>
+                        <div class="card-info">
+                            <img src="images/Github-JsCalculator.png" alt="">
+        
+                            <div class="card-project-content">
+                                <h3>
+                                    HTML <i class="fa-brands fa-html5"></i>,
+                                     CSS <i class="fa-brands fa-css3-alt"></i> & 
+                                     JS<i class="fa-brands fa-js"></i>
+                                </h3>                                
+                                <p>A simple responsive calculater with under 160 lines of code</p> 
+        
+                                <a href="*" class="at-button circle-border">
+                                    Calculater
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="project center">
+                        <h2>Loruki Clone</h2>
+                        <div class="card-info">
+                            <img src="images/Loruki.png" alt="">
+        
+                            <div class="card-project-content">
+                                <h3>
+                                    HTML <i class="fa-brands fa-html5"></i> &
+                                     CSS <i class="fa-brands fa-css3-alt"></i> 
+                                </h3>                                
+                                <p>This learning project become a website using a range of media-quires and advance CSS animation tools which will be reference point for future projects</p> 
+        
+                                <a href="*" class="at-button circle-border">
+                                    Loruki
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="project center">
+                        <h2>Café Website</h2>
+                        <div class="card-info">
+                            <img src="images/CafeWeb.png" alt="">
+        
+                            <div class="card-project-content">
+                                <h3>
+                                    HTML <i class="fa-brands fa-html5"></i> &
+                                     CSS <i class="fa-brands fa-css3-alt"></i> 
+                                </h3>                                   
+                                <p>Early project which become a testing area for HTML & CSS </p> 
+                                <a href="*" class="at-button circle-border">
+                                    Café Website
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                
+                    <div class="project center">
+                        <h2>YouTube Clone</h2>
+                        <div class="card-info">
+                            <img src="images/Youtube-Clone.png" alt="">
+        
+                            <div class="card-project-content">
+                                <h3>
+                                    HTML <i class="fa-brands fa-html5"></i> &
+                                     CSS <i class="fa-brands fa-css3-alt"></i> 
+                                </h3>   
+                                
+                                <p>A responsive clone of the old 2022 YouTube layout [HTML & CSS]</p> 
+                                <a href="https://harrycen1.github.io/YouTube-Clone/" class="at-button circle-border">
+                                    YouTube Clone
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <!--Figma-->
+            <div class="item" data-category="figma">
+                <h2 class="text-center"><i class="fa-brands fa-figma"></i></h2>
+                <div class="gridThree">
+                    <div class="project center">
+                        <h2>Abstract | Help Center</h2>
+                        <div class="card-info">
+                            <img src="images/Figma-Abstract-HelpCenter.png" alt="">
+        
+                            <div class="card-project-content">
+                                <h3>Figma</h3>
+                                <p>Redesigned within Figma a page from Frontend-Practice</p> 
+        
+                                <a href="https://www.figma.com/file/9orfukkqgGUIDZNQP4uCNs/Untitled?type=design&node-id=0%3A1&mode=design&t=6Xe7wUhEzpf8HH60-1" class="at-button circle-border">
+                                    Abstract
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="project center">
+                        <h2>BoxChamy</h2>
+                        <div class="card-info">
+                            <img src="images/Figma-BoxChamy.png" alt="">
+        
+                            <div class="card-project-content">
+                                <h3>Figma</h3>
+                                <p>Poster design for a gym</p> 
+        
+                                <a href="https://www.figma.com/file/vjXPzns0j7PFd9htOE6Auo/Test-1?type=design&mode=design&t=VETuOYSePycJyi7P-1" class="at-button circle-border">
+                                    Poster
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project center">
+                        <h2>NFT Clone</h2>
+                        <div class="card-info">
+                            <img src="images/Figma-NFT Clone.png" alt="">
+        
+                            <div class="card-project-content">
+                                <h3>Figma</h3>
+                                <p>Home page clone of a NFT wesbite, used a practice and reference for website structure </p> 
+        
+                                <a href="https://www.figma.com/file/37w44FwFvuP9TVjVSjrWcw/Figma----NFTs-%2F-Test-1?type=design&node-id=0%3A1&mode=design&t=VETuOYSePycJyi7P-1" class="at-button circle-border">
+                                    NFT Clone
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Add More Future Projects-->
+        </div>
+
+    </section>
+
+    <!--About Me-->
+    <section class="Hidden">
+        <h1 class="color-lightgreen text-center">About Me</h1>
+
+        <div class="about-me center">
+
+            <div class="about-img ">
+                <img src="images/me-on-phone.jpeg" alt="">
+            </div>
+
+            <div class="about-text space-text-1 stack">
+
+                <div class="about-me-inner-text flex ">
+
+                    <div class="white-box"></div>
+                    <div>
+                        <h3>Harry Cen</h3>
+                        <h2>Eager Learner</h2>
+                        <p>
+                            Hey there, I'm Harry! A passionate self-taught learner with a love of coding and making websites within a ever-evolving world of online engagement.
+                            Devising myself with learning HTML, CSS and JavaScript to gain further insight in what sparks visually compelling content. 
+                        </p>
+
+                        <p>
+                            When I'm not immersed in finding the lastest-industy trends or new practices for writing code,
+                            You would find me traveling and participating in team-based Airsoft events.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+ <!--Footer-->
+
+    <footer class="footer back">
+
+        <div class="gridThree center text-center">
+
+            <div class="phone-number"></div>
+            <div class="email"></div>
+            <div class="div"></div>
+
+        </div>
+        <div class="gridThree center ">
+
+            <div>
+
+                <h1>Harry Cen</h1>
+                <div class="flex">
+                     <div class="white-box"></div>
+                     <p>
+                        Thank you for taking the time to have a look around! <br> 
+                        It be amazing to meet you and any feedback would be more than welcomed.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="contact-form flex center back">
+                <form class="form-contact-list">
+                    <h2 class="color-lightgreen text-big">Lets Chat</h2>
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="text" id="phone" placeholder="Phone Number" required>
+                    <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                    <button class="red-sumbit-button" type="submit">Sumbit</button>
+                </form>
+
+            </div>
+
+            <div class="contact-icon center">
+                
+                <div class=""></div>
+
+                <div class="circle-border ">
+                    <a href="#" class="icons"><i class="fab fa-github fa-2x"></i></a>
+                    
+                </div>
+                <div class="circle-border">
+                    <a href="#" class="icons"><i class="fab fa-facebook fa-2x"></i></a>
+
+                </div>
+                <div class="circle-border">
+                    <a href="#" class="icons"><i class="fab fa-instagram fa-2x"></i></a>
+
+                </div>
+                <div class="circle-border">
+                    <a href="#" class="icons"><i class="fab fa-twitter fa-2x"></i></a>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
